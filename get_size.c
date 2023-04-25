@@ -24,4 +24,7 @@ int get_size(const char *format, int *i)
 
 	return (size);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5a6050309f1120216a9f0aec792406c95d793f0
