@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * is_printable - Estimate if a char is printable
- * @c: Char to be estimated.
+ * is_printable - Evaluates if a char is printable
+ * @c: Char to be evaluated.
  *
  * Return: 1 if c is printable, 0 otherwise
  */
@@ -84,4 +84,3 @@ long int convert_size_unsgnd(unsigned long int num, int size)
 
 	return ((unsigned int)num);
 }
-i
