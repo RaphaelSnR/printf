@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_size - Compute the size to cast the argument
+ * get_size - Calculates the size to cast the argument
  * @format: Formatted string in which to print the arguments
  * @i: List of arguments to be printed.
  *
@@ -24,7 +24,3 @@ int get_size(const char *format, int *i)
 
 	return (size);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c5a6050309f1120216a9f0aec792406c95d793f0
