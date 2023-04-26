@@ -4,9 +4,9 @@
 
 /**
  * print_char - Prints a char
- * @types: state a of arguments
- * @buffer:  array to handle print
- * @flags:  Compute active flags
+ * @types: List a of arguments
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags
  * @width: Width
  * @precision: Precision specification
  * @size: Size specifier
@@ -186,3 +186,4 @@ int print_binary(va_list types, char buffer[],
 	}
 	return (count);
 }
+
