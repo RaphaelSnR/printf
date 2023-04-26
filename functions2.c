@@ -2,10 +2,10 @@
 
 /****************** PRINT POINTER ******************/
 /**
- * print_pointer - Prints the worth of a pointer variable
+ * print_pointer - Prints the value of a pointer variable
  * @types: List a of arguments
- * @buffer: array to handle print
- * @flags:  Compute active flags
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
@@ -56,9 +56,9 @@ int print_pointer(va_list types, char buffer[],
 /**
  * print_non_printable - Prints ascii codes in hexa of non printable chars
  * @types: Lista of arguments
- * @buffer: array to handle print
- * @flags:  Compute active flags
- * @width: obtain width
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags
+ * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
